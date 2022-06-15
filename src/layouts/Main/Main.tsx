@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   AppBar,
-  Box, Button,
+  Box,
   // Button,
   // Tab,
   // Tabs,
@@ -49,9 +49,7 @@ const Main = ({
         elevation={trigger ? 1 : 0}
       >
         <Toolbar variant={isMd ? 'regular' : 'dense'}>
-          <Button>
-            <img src={logo} style={{ width: isLg ? '12rem' : isMd ? '9rem' : '8rem' }} alt="website logo" />
-          </Button>
+          <img src={logo} style={{ width: isLg ? '12rem' : isMd ? '9rem' : '8rem' }} alt="website logo" />
           {/*<Tabs value={0}>*/}
           {/*  {['PRODUCTS', 'RESOURCES', 'COMPANY', 'NEWS'].map(page => (*/}
           {/*    <Tab label={<Typography variant="h2">{page}</Typography>} key={page} />*/}
